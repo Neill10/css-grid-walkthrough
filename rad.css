@@ -37,5 +37,24 @@ html {
 
 /* Style your grid here */
 #grid {
-    
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+}
+/*
+#ruby{
+    grid-column: span 3;
+}
+#js{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: span 5;
+}
+*/
+.container{
+    border: 3px solid lightgreen;
+    display: flex;
+    flex-direction: row;
 }
